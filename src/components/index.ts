@@ -19,6 +19,7 @@ import { AlohaPreview } from './preview/web/aloha/AlohaPreview';
 import { CountdownTimer } from './countdownTimer/CountdownTimer';
 import { SpinnerLoader } from './loader/SpinnerLoader';
 import { AddToCalendarWidget } from './addToCalendarWidget/AddToCalendarWidget';
+import { Typography, TYPOGRAPHY, LABEL_VARIANT, BODY_VARIANT, BUTTON_VARIANT, DISPLAY_VARIANT, HEADLINE_VARIANT } from './typography/Typography';
 
 // Dropdown is not quite ready for primetime yet
 
@@ -44,5 +45,12 @@ export {
   CountdownTimer,
   SpinnerLoader,
   AddToCalendarWidget,
-  PreviewWrapper
+  PreviewWrapper,
+  Typography,
+  TYPOGRAPHY,
+  LABEL_VARIANT,
+  BODY_VARIANT,
+  BUTTON_VARIANT,
+  DISPLAY_VARIANT,
+  HEADLINE_VARIANT
 };
